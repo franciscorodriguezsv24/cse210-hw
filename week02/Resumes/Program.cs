@@ -37,7 +37,7 @@ class Program
     {
         MusicPlayer mp3 = new MP3Player("song.mp3");
         MusicPlayer stream = new StreamingPlayer("radio.com");
-        
+
         mp3.Play();
         stream.Play();
     }
